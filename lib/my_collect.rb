@@ -7,4 +7,4 @@ def my_collect(array)
 end
 
 my_collect(languages) {|lang| lang.upcase}
-my_collect(students) {|student| student.split(" ").first}
+#my_collect(students) {|student| student.split(" ").first}
