@@ -4,6 +4,5 @@ def my_collect(languages)
     yield(languages[i].capitalize)
     i+=1
   end
-  
-end
 
+end
