@@ -1,9 +1,11 @@
 def my_collect(array)
+  new_array=[]
 for i in array
   if i.include? (" ")
-    i.split(" ").first
+    new_array << i.split(" ").first
   else
-    i.upcase
+    new_array << i.upcase
   end
 end
+new_array
 end
