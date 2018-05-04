@@ -1,10 +1,10 @@
 def my_collect(array)
-  i=0
-  while i<array.length
-    yield(array[i])
-    i+=1
+for i in array
+  if i.include? (" ")
+    i.split(" ").first
+  else
+    i.upcase
   end
+  
 end
 
-my_collect(array) {|lang| lang.upcase}
-my_collect(array) {|student| student.split(" ").first}
