@@ -5,6 +5,5 @@ for i in array
   else
     i.upcase
   end
-  
 end
-
+end
