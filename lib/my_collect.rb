@@ -5,3 +5,6 @@ def my_collect(array)
     i+=1
   end
 end
+
+my_collect(languages) {|lang| lang.upcase}
+my_collect(students) {|student| student.split(" ").first}
