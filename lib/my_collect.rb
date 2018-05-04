@@ -4,5 +4,5 @@ def my_collect(languages)
     yield(languages[i].upcase)
     i+=1
   end
-  languages
+
 end
